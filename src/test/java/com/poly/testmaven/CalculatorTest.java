@@ -9,7 +9,7 @@ public class CalculatorTest {
     public void testSum() {
         Caculator cal = new Caculator();
         // Mong đợi: 2 + 3 = 5
-        Assert.assertEquals(cal.sum(2, 3), 5);
+        Assert.assertEquals(cal.sum(2, 3), 999);
     }
 
     @Test
